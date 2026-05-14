@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Plataforma XIDE IoT": {
+    "message": "Plataforma XIDE IoT",
+    "description": "The label for category 'Plataforma XIDE IoT' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.X-NODEs": {
+    "message": "X-NODEs",
+    "description": "The label for category 'X-NODEs' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.XC01 - Controlador WiFi & Bluetooth": {
+    "message": "XC01 - Controlador WiFi & Bluetooth",
+    "description": "The label for category 'XC01 - Controlador WiFi & Bluetooth' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.R4": {
+    "message": "R4",
+    "description": "The label for category 'R4' in sidebar 'tutorialSidebar'"
+  }
+}
