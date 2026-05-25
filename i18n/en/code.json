@@ -1,6 +1,6 @@
 {
   "My site": {
-    "message": "My site English"
+    "message": "My site"
   },
   "Docusaurus Tutorial - 5min ⏱️": {
     "message": "Docusaurus Tutorial - 5min ⏱️"
@@ -132,17 +132,21 @@
     "message": "Last updated{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
-  "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
-    "description": "The label for the navbar versions dropdown on mobile view"
-  },
   "theme.NotFound.title": {
     "message": "Page Not Found",
     "description": "The title of the 404 page"
   },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
   "theme.tags.tagsListLabel": {
     "message": "Tags:",
     "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.admonition.caution": {
     "message": "caution",
@@ -168,10 +172,6 @@
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Blog recent posts navigation",
     "description": "The ARIA label for recent posts in the blog sidebar"
@@ -188,10 +188,6 @@
     "message": "(opens in new tab)",
     "description": "The ARIA label for the external link icon"
   },
-  "theme.NavBar.navAriaLabel": {
-    "message": "Main",
-    "description": "The ARIA label for the main navigation"
-  },
   "theme.NotFound.p1": {
     "message": "We could not find what you were looking for.",
     "description": "The first paragraph of the 404 page"
@@ -199,6 +195,10 @@
   "theme.NotFound.p2": {
     "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
     "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Languages",
@@ -240,10 +240,6 @@
     "message": "Home page",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
-  "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
-  },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
@@ -251,6 +247,10 @@
   "theme.docs.sidebar.collapseButtonAriaLabel": {
     "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Close navigation bar",

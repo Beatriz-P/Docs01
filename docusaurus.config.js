@@ -39,18 +39,19 @@ const config = {
     defaultLocale: "es",
     locales: ["es", "en"],
   },*/
- i18n: {
-  defaultLocale: 'es',
-  locales: ['es', 'en'],
-  localeConfigs: {
-    es: {
-      label: 'Español',
-    },
-    en: {
-      label: 'English',
+   i18n: {
+    defaultLocale: "es",
+    locales: ["es", "en"],
+    localeConfigs: {
+      es: {
+        label: "Español",
+      },
+      en: {
+        label: "Ingles",
+      },
     },
   },
-},
+
   presets: [
     [
       "classic",
@@ -58,7 +59,7 @@ const config = {
       ({
         docs: {
          sidebarPath: require.resolve("./sidebars.js"),
-        //  routeBasePath: "/", // esto quita /docs
+         routeBasePath: "/", // esto quita /docs
          // sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -116,7 +117,7 @@ const config = {
           },
           {
             type: "localeDropdown", // <-- esto agrega el selector de idioma
-            position: "right", // lo pone al final de la navbar
+            position: "right", // Coloca al final de la navbar
           },
         ],
       },
@@ -128,7 +129,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/intro",
               },
             ],
           },

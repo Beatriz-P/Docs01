@@ -81,3 +81,20 @@ span.breadcrumbs__item--active .breadcrumbs__link {
 .section-title-icon.plataforma-xide > div > a::before {
   background-image: url(../../static/sidebar/plataforma-xide.svg);
 }
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+  }
+
+.tabs-practicas {
+  width: 100%;
+  height: 65px;
+  text-align: center;
+  display: flex;
+  background-color: #e9ebeb;
+  font-size: 18px;
+
+}
