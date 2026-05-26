@@ -16,7 +16,7 @@
     "description": "The label for category 'pic18f4550-or-pic18f45k50' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.user-manuals": {
-    "message": "user-manuals",
+    "message": "USER MANUALS",
     "description": "The label for category 'user-manuals' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.xide": {
