@@ -4,7 +4,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Documentación": {
-    "message": "Documentación",
+    "message": "Documentation",
     "description": "Navbar item with label Documentación"
   },
   "item.label.Blog": {

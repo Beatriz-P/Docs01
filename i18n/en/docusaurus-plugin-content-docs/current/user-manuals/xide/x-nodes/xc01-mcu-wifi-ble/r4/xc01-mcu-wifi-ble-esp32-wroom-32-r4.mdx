@@ -1,0 +1,244 @@
+import ImageZoom from '@site/src/components/ImageZoom';
+
+
+# XC01 - MCU WIFI BLE (ESP32-WROOM-32) - R4
+
+<div style={{ textAlign: "center" }}>
+  ![XC01 - MCU WIFI BLE (ESP32-WROOM-32)](/img/X-NODE-XC01-ESP32-WROOM-CONTROLADOR-WIFI-BLUETHOOTH-R4.webp) 
+</div>
+
+<p align="justify">X-NODE MCU WIFI BLE (ESP32-WROOM-32) is based on the wireless SoC ESP32-WROOM-32 from [**Espressif Systems®**](https://www.espressif.com/en) that enables Bluetooth/BLE & WiFi 2.4GHz wireless communications and I2C, UART & SPI wired serial communications, it can perform as a X-NODE (slave) or a complete standalone X-BOARD system (master). Includes state-of-the-art features, such as fine-grained clock gating, various power modes and dynamic power scaling, balancing high performance, transmission speed and power consumption. Ideal for mobile devices, wearable electronics and IoT applications, like reading from sensors, controlling actuators, or even building home automation systems.</p>
+
+### **TABLE OF CONTENTS**
+
+  1. [**¿How does it work?**](#i-how-does-it-work)
+  2. [**Layout**](#ii-layout)
+  3. [**Specification**](#iii-specification)
+  4. [**Pinout**](#iv-pinout)  
+  5. [**Software setup**](#v-software-setup)
+  6. [**Downloads**](#vi-downloads)
+
+  ## **I. How does it work?**
+  <p align="justify">The **X-NODE MCU WIFI BLE (ESP32-WROOM-32)** is based on the wireless SoC ESP32-WROOM-32 from [**Espressif Systems®**](https://www.espressif.com/en), it comes with a micro USB type B connector that makes the programming of the device a simple task, it can be easily integrated in projects to enable wireless WiFi or Bluetooth communication, to connect microcontrollers, microprocessors or even industrial equipment to mobile devices or cloud services.</p>
+
+<p align="justify">The **X-NODE MCU WIFI BLE (ESP32-WROOM-32)** is compatible with the  [**mikroBUS™**](https://www.mikroe.com/mikrobus) standard, that makes it compatible with Mikroe® add-on boards ecosystem with 1000+ sensors and development boards including [**X-NODE**](https://microside.com/xide/) devices. It also comes with two 4-pin JST connectors compatible with Sparkfun’s  [**Qwiic**](https://www.sparkfun.com/qwiic) connection system to expand its capabilities even further in a fast and easy way.</p>
+
+### **II. Layout** 
+<div style={{ textAlign: "center" }}>
+  ![Descripciòn del hardware XC01](/img/X-NODE-XC01-DESCRIPCION-DEL-HARDWARE-CONTROLADOR-WIFI-BLUETOOTH-R4.webp)
+</div>
+
+1. SoC [**ESP32-WROOM-32**](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf) from [**Espressif Systems®**](https://www.espressif.com/en)
+2. Bootloader push button and device reset push button.
+3. 4-pin JST Qwiic connect connector.
+4. Micro USB type B connector.
+5. UART\<\>I2C serial ports.
+6. X-NODE model.
+7. X-NODE type.
+8. MicroSD slot.
+9. Device mode selector: X-NODE (slave) \<\> X-BOARD (master).
+10. [**mikroBUS™**](https://www.mikroe.com/mikrobus) connector.
+11. Jumpers to enable 3.3V & 5V power output.
+12. Hardware revision.
+13. Core component name of the X-NODE device
+
+## **III. Specification**
+
+<table data-header-hidden><thead></thead><tbody><tr><td><strong>Tipo</strong></td><td>BLE + WiFi</td></tr><tr><td><strong>Applications</strong></td><td>Ideal for mobile devices, wearable electronics and IoT applications, home automatization, robotics, etc.</td></tr><tr><td><strong>On-board module</strong></td><td>SoC ESP32-WROOM-32 from Espressif Systems®</td></tr><tr><td><strong>Compatibility</strong></td><td><a href="https://www.mikroe.com/mikrobus">**mikroBUS™**</a>  &#x26; <a href="https://www.sparkfun.com/qwiic">**Qwiic®**</a></td></tr><tr><td><strong>Key features</strong></td><td>Wi-Fi(2.4GHz) 802.11 b/g/n/e/i (802.11n up to 150 Mbps). Bluetooth: v4.2 BR/EDR &#x26; BLE, IEEE 802.11 WFA, WPA/WPA2 &#x26; WAPI, AES, SHA-2, RSA, ECC &#x26; RNG.</td></tr><tr><td><strong>Interfaces</strong></td><td>UART, I2C, SPI, GPIO, USB</td></tr><tr><td><strong>Dimensions</strong></td><td>72 x 26 x 21 mm </td></tr><tr><td><strong>Voltage</strong></td><td>3.3 V</td></tr></tbody></table>
+
+## **IV. Pinout**
+
+<table class="table-Pinout" data-header-hidden style={{ textAlign: "center" }}><thead></thead><tbody><tr><td><strong>Notes</strong></td>
+<td><strong>Pin</strong></td>
+<td colspan="4" align="center">![mikroBUS](/img/mikroBUS-logo-black.png) </td>
+<td><strong>Pin</strong></td>
+<td><strong>Notes</strong></td></tr>
+<tr><td>Analog signal</td>
+<td><strong>AN</strong></td>
+<td>1</td>
+<td>AN</td>
+<td>PWM</td>
+<td>16</td>
+<td><strong>PWM</strong></td>
+<td>PWM</td></tr>
+<tr><td>Reset</td>
+<td><strong>RST</strong></td>
+<td>2</td>
+<td>RST</td>
+<td>INT</td>
+<td>15</td>
+<td><strong>INT</strong></td>
+<td>Interruption</td></tr>
+<tr><td>SPI Chip Select</td>
+<td><strong>CS</strong></td>
+<td>3</td>
+<td>CS</td>
+<td>RX</td>
+<td>14</td>
+<td><strong>RX</strong></td>
+<td>UART Receptor</td></tr>
+<tr><td>SPI Clock</td>
+<td><strong>SCK</strong></td>
+<td>4</td>
+<td>SCK</td>
+<td>TX</td>
+<td>13</td>
+<td><strong>TX</strong></td>
+<td>UART transmission</td></tr>
+<tr><td>SPI Data Out</td>
+<td><strong>MISO</strong></td>
+<td>5</td>
+<td>MISO</td>
+<td>SCL</td>
+<td>12</td>
+<td><strong>SCL</strong></td>
+<td>I2C Clock</td></tr>
+<tr><td>SPI Data IN</td>
+<td><strong>MOSI</strong></td>
+<td>5</td>
+<td>MOSI</td>
+<td>SDA</td>
+<td>11</td>
+<td><strong>SDA</strong></td>
+<td>I2C Data</td></tr>
+<tr><td>Voltaje</td>
+<td><strong>3V3</strong></td>
+<td>7</td>
+<td>3.3V</td>
+<td>5V</td>
+<td>10</td>
+<td><strong>5V</strong></td>
+<td>Voltaje</td></tr>
+<tr><td>GND</td>
+<td><strong>GND</strong></td>
+<td>8</td>
+<td>GND</td>
+<td>GND</td>
+<td>9</td>
+<td><strong>GND</strong></td>
+<td>GND</td></tr></tbody></table>
+
+## **V. Software setup**
+
+<p align="justify">The ESP32 module can be program with the same tools that any other Espressif SoC, therefore all development environments compatible with the ESP-IDF can be used to program the X-NODE MCU WIFI BLE (ESP32-WROOM-32). However, in order to connect to the device through the USB port the [**CP210x USB to UART bridge driver**](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) is needed. Once the driver is installed the device can be access through a virtual COM port.</p>
+
+
+<details>
+  <summary>
+    Example with PlatformIO
+  </summary>
+
+**1**.- Connect your X-NODE MCU WIFI BLE (ESP32-WROOM-32) device to the computer,
+
+  **[Download & install VSCode](https://code.visualstudio.com/)**
+     <ImageZoom 
+       src="/img/DESCARGAR-E-INSTALAR-VSCODE.webp" 
+       alt="PlatformIO IDE" 
+      />
+
+**2**.- Search the PlatformIO IDE extension.
+  <ImageZoom 
+    src="/img/XC01-EXTENSIONES-PASO-2.webp" 
+    alt="PlatformIO IDE" 
+    thumbWidth={250} 
+  />
+ 
+**3**.- Once PlatformIO it’s installed, open the project manager & create a new project.
+
+  <ImageZoom
+    src="/img/CREAR-NUEVO-PROYECTO-PLATFORMIO.webp" 
+    alt="Create New Project" 
+    thumbWidth={250} 
+  />
+
+ **4**.-  Fill the project wizard with the following values and press Finish:
+  * Name: Test
+  * Board: Espressif ESP32 Dev Module
+  * Framework: Arduino
+  * Use default location.
+
+  <ImageZoom 
+    src="/img/XC01-R4-STEP-04.webp" 
+    alt="Project Wizard" 
+    thumbWidth={250} 
+  />
+
+**5**.- This process will download the ESP-IDF toolchain, due to file sizes this may take a while the first time, please be patient and let the initialization finish.
+
+  <ImageZoom 
+    src="/img/XC01-R4-STEP-05.webp" 
+    alt="módulo ESP32" 
+    thumbWidth={250} 
+  />
+
+**6**.- When the process is finished Visual Studio Code will display the following structure.
+
+  <ImageZoom 
+    src="/img/XC01-R4-PIO-STEP-6.webp" 
+    alt="Instalación completa" 
+    thumbWidth={250} 
+  />
+
+
+**7**.- Go to the official [**PlatformIO documentation**](https://docs.platformio.org/en/latest/tutorials/index.html) for in depth details of the IDE usage
+
+</details>
+
+<details>
+  <summary>
+    Example with Arduino®IDE
+  </summary>
+
+ **1**.- Download & install Arduino® IDE, go to “File” > “Preferences”.
+
+   <ImageZoom 
+    src="/img/SETUP-ARDUINO-PREFERENCES.webp" 
+    alt="SETUP ARDUINO PREFERENCES" 
+  />
+
+ **2**.- Copy and paste the following URL on the Additional Board field input:
+  
+  ```
+  https://dl.espressif.com/dl/package_esp32_index.json
+  ```
+
+  <ImageZoom 
+    src="/img/SETUP-ARDUINO-JSON.webp" 
+    alt="SETUP ARDUINO JSON" 
+  />
+
+ **3**.- Click on “Tools” > “Board” > “Board Manager”.
+
+  <ImageZoom 
+    src="/img/SETUP-ARDUINO-BOARD-MANAGER.webp" 
+    alt="SETUP ARDUINO BOARD MANAGER" 
+  />
+
+ **4**.- Search ESP32 by Espressif Systems and click on install.
+
+  <ImageZoom 
+    src="/img/XC01-R4-ARDUINO-STEP-5.webp" 
+    alt="SETUP ARDUINO ESP32"  
+  />
+
+ **5**.- Choose ESP32 Dev Module board.
+
+  <ImageZoom 
+    src="/img/SETUP-ARDUINO-DEV-MODULE-BOARD.webp" 
+    alt="SETUP ARDUINO DEV MODULE BOARD"  
+  />
+
+ **6**.- Choose the COM port of the device.
+
+ <ImageZoom 
+    src="/img/SETUP-ARDUINO-COM-PORT.webp" 
+    alt="SETUP ARDUINO COM PORT" 
+  />
+
+</details>
+
+## **VI. Downloads**
+<div style={{ textAlign: "center" }}>
+  <button class="button-Descargas" onClick={() => window.open("/file/SCHEMATIC-XC01-MCU-WIFI-BLE-(ESP32-WROOM-32).pdf", "_blank")}>**Schematic**</button>
+  <button  class="button-Descargas" onClick={() => window.open("/file/DIMENSIONS-XC01-MCU-WIFI-BLE-(ESP32-WROOM-32).pdf", "_blank")}>**Dimensions**</button>
+</div>

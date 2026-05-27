@@ -15,28 +15,28 @@
     "message": "pic18f4550-or-pic18f45k50",
     "description": "The label for category 'pic18f4550-or-pic18f45k50' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.user-manuals": {
+  "sidebar.tutorialSidebar.category.MANUALES DE USUARIO": {
     "message": "USER MANUALS",
-    "description": "The label for category 'user-manuals' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'MANUALES DE USUARIO' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.xide": {
-    "message": "xide",
-    "description": "The label for category 'xide' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.XIDE": {
+    "message": "XIDE",
+    "description": "The label for category 'XIDE' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.x-nodes": {
-    "message": "x-nodes",
-    "description": "The label for category 'x-nodes' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.X-NODEs": {
+    "message": "X-NODEs",
+    "description": "The label for category 'X-NODEs' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.xc01-mcu-wifi-ble": {
-    "message": "xc01-mcu-wifi-ble",
-    "description": "The label for category 'xc01-mcu-wifi-ble' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.XC01 - Controlador WiFi & Bluetooth": {
+    "message": "XC01 - MCU WIFI BLE",
+    "description": "The label for category 'XC01 - Controlador WiFi & Bluetooth' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.r4": {
-    "message": "r4",
-    "description": "The label for category 'r4' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.R4": {
+    "message": "R4",
+    "description": "The label for category 'R4' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.r5": {
-    "message": "r5",
-    "description": "The label for category 'r5' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.R5": {
+    "message": "R5",
+    "description": "The label for category 'R5' in sidebar 'tutorialSidebar'"
   }
 }
