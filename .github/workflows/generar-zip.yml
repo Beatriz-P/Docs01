@@ -1,0 +1,23 @@
+name: Generar ZIP de documentación
+
+on:
+  push:
+    tags:
+      - "EN-XC01-R4-*"
+
+jobs:
+  crear-zip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar documentación
+        uses: actions/checkout@v4
+
+      - name: Crear ZIP
+        run: |
+          zip -r X-NODE - XC01 ESP32 WROOM Controlador WiFi Bluetooth R4.zip docs/EN-XCO1-R4
+
+      - name: Crear Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: EN-XC01-R4.zip
